@@ -40,6 +40,15 @@
   textarea {
     resize: vertical;
   }
+
+  audio, 
+  canvas, 
+  iframe, 
+  img, 
+  svg, 
+  video {
+    vertical-align: middle;
+  }
   
   /* ==========================================================================
      Custom styles
@@ -311,7 +320,7 @@ body {
   .portfolio-wrapper {
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: flex-start;
     flex-flow: row wrap;
   }
   
@@ -325,6 +334,7 @@ body {
   
   .home-portfolio-piece h4 {
     font-weight: bold;
+    padding: 1.5rem 0;
   }
   
   .home-portfolio-piece figure {
@@ -437,11 +447,6 @@ body {
     margin: 20px;
   }
   
- /* #contact {
-    
-  }
-  */
-  
   /* ==========================================================================
      Helper classes
      ========================================================================== */
@@ -497,6 +502,7 @@ body {
           scroll-behavior: smooth;  
       }
     }
+
   
    @media only screen and (min-width:768px) {
     /*Tablet styles here*/
@@ -1013,4 +1019,6 @@ body {
       page-break-after: avoid;
     }
   }
+
+ 
   
