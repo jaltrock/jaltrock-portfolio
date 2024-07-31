@@ -163,7 +163,7 @@ body {
   }
   
   .content-wrapper {
-    width: 85%;
+    width: 100%;
   }
   
   #work p,
@@ -199,6 +199,7 @@ body {
   
   #work {
     padding-top: 60px;
+    align-items: cent
   }
   
   #skills {
@@ -504,6 +505,18 @@ body {
       }
     }
 
+   @media (max-width: 767px) {
+
+    .content-wrapper {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .home-portfolio-piece {
+      flex: 1 1 100%;
+    }
+   }
   
    @media only screen and (min-width:768px) {
     /*Tablet styles here*/
@@ -934,7 +947,7 @@ body {
   
   @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
-  }
+  }  
   
   
   
