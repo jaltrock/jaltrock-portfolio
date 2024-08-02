@@ -123,6 +123,15 @@
     margin: 0;
   }
 
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Lekton;
+    line-height: 1.5;
+    width: 100%;
+  }
+
   p {
     margin: 0;
   }
@@ -299,7 +308,6 @@
   
   .repository-link,
   .project-link {
-    margin: 40px 60px;
     background-color: #152A3E;
     padding: .75rem 3.75rem;
     border-radius: 30px;
