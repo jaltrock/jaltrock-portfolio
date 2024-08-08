@@ -303,6 +303,7 @@
    flex-direction: column;
    box-sizing: border-box;
    margin: 10px;
+   justify-content: space-between;
   }
   
   .home-portfolio-piece h4 {
@@ -531,6 +532,10 @@
       text-align: center;
       margin: 0;
     }
+
+    .repository-link {
+      margin-bottom: 10px;
+    }
 }
   
    @media only screen and (min-width:768px) {
@@ -603,7 +608,7 @@
   
     .repository-link,
     .project-link {
-      margin: 40px 0 60px;
+      margin-bottom: 10px;
     }
   
     .skills-header {
@@ -673,7 +678,7 @@
     }
   
     .home-portfolio-piece {
-      max-width: 50%;
+      max-width: 40%;
       align-items: center;
     }
   
@@ -795,8 +800,6 @@
       font-size: 1.1rem;
     }
   
-    /* element margins */
-    /* the list element have 20px of bottom margin already */
     header {
       padding-top: 80px;
       padding-bottom: 140px;
